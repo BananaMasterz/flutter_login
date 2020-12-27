@@ -459,7 +459,7 @@ class _FlutterLoginState extends State<FlutterLogin>
     LoginThemeHelper.loginTextStyle = titleStyle;
 
     return theme.copyWith(
-      primaryColor: primaryColor,
+      primaryColor: Colors.white,
       primaryColorDark: primaryColorDark,
       accentColor: accentColor,
       errorColor: errorColor,
