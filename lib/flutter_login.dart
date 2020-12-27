@@ -72,7 +72,7 @@ class _Header extends StatefulWidget {
     this.logoTag,
     this.title,
     this.titleTag,
-    this.height = 2500.0,
+    this.height = 250.0,
     this.logoController,
     this.titleController,
     @required this.loginTheme,
@@ -461,6 +461,7 @@ class _FlutterLoginState extends State<FlutterLogin>
     return theme.copyWith(
       primaryColor: Colors.white,
       primaryColorDark: primaryColorDark,
+      secondaryHeaderColor: secondaryHeaderColor,
       accentColor: accentColor,
       errorColor: errorColor,
       cardTheme: theme.cardTheme.copyWith(
@@ -476,7 +477,7 @@ class _FlutterLoginState extends State<FlutterLogin>
         fillColor: inputTheme.fillColor ??
             Color.alphaBlend(
               primaryColor.withOpacity(.07),
-              Colors.grey.withOpacity(.04),
+              secondaryHeaderColor.withOpacity(.04),
             ),
         contentPadding: inputTheme.contentPadding ??
             const EdgeInsets.symmetric(vertical: 4.0),
