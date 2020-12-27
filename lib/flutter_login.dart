@@ -37,7 +37,7 @@ class _AnimationTimeDilationDropdown extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 2000,
+      height: 200,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
@@ -72,7 +72,7 @@ class _Header extends StatefulWidget {
     this.logoTag,
     this.title,
     this.titleTag,
-    this.height = 250.0,
+    this.height = 2500.0,
     this.logoController,
     this.titleController,
     @required this.loginTheme,
