@@ -37,7 +37,7 @@ class _AnimationTimeDilationDropdown extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 200,
+      height: 2000,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
@@ -459,7 +459,7 @@ class _FlutterLoginState extends State<FlutterLogin>
     LoginThemeHelper.loginTextStyle = titleStyle;
 
     return theme.copyWith(
-      primaryColor: primaryColor,
+      primaryColor: Colors.white,
       primaryColorDark: primaryColorDark,
       accentColor: accentColor,
       errorColor: errorColor,
